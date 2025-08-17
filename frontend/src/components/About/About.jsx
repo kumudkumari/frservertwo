@@ -7,7 +7,8 @@
       const [error, setError] = useState(null);
 
       useEffect(() => {
-        axios.get('https://apifriends.krrsolutions.com/api/users')
+        //axios.get('https://apifriends.krrsolutions.com/api/users')
+        axios.get('http://69.62.85.28:4004/api/electricProducts')
           .then(response => {
             setData(response.data);
           })

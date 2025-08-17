@@ -11,7 +11,7 @@ function DisplayElectricProducts() {
 
 const getData = async()=>{
 
-  try {const res =  await axios.get( 'http://localhost:4001/api/electricProducts'  )
+  try {const res =  await axios.get('http://69.62.85.28:4004/api/electricProducts')
 
    console.log(res.data) 
 
